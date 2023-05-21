@@ -5,5 +5,5 @@ if exist "%file%" (
     del "%file%"
     echo File "%file%" deleted.
 ) else (
-    echo File "%file%" not found.
+    echo File "%file%" not found
 )
